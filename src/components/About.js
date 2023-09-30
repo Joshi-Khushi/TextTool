@@ -11,9 +11,9 @@ export default function About(props) {
     <div className="container" >
         <h1 className="my-3" style={{color: props.mode === 'dark'?'white':'#22395a'}}>About Us</h1>
 
-        <p style={{color: props.mode === 'dark'?'white':'#22395a', fontSize: '18px'}}>Introducing a versatile solution designed to ease the way you interact with text. Whether you need to streamline content, reformat documents, or imply specific letter case to your information, our website offers an intuitive platform with a powerful array of features. From seamless conversions to dynamic restructuring, it's your go-to companion for transforming text in a flash. Bid manual editing farewell and embrace the efficiency of our Text Transformation Tool - TextUtils.</p>
+        <p style={{color: props.mode === 'dark'?'white':'#22395a', fontSize: '18px'}}>Introducing a versatile solution designed to ease the way you interact with text. Whether you need to streamline content, reformat documents, or imply specific letter case to your information, our website offers an intuitive platform with a powerful array of features. From seamless conversions to dynamic restructuring, it's your go-to companion for transforming text in a flash. Bid manual editing farewell and embrace the efficiency of our Text Transformation Tool - <u>TextTool.</u> </p>
 
-        <h4 className="my-2" style={{color: props.mode === 'dark'?'white':'#22395a'}}>TextUtils Features:</h4>
+        <h4 className="my-2" style={{color: props.mode === 'dark'?'white':'#22395a'}}>TextTool Features:</h4>
 
         <div className="accordion" id="accordionExample">
         <div className="accordion-item" style={myStyle}>
@@ -24,7 +24,7 @@ export default function About(props) {
             </h2>
             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-                This transformation involves converting all capital letters in a text to their corresponding small letters. For example, "TEXTUTILS" becomes "textutils" after the transformation.
+                This transformation involves converting all capital letters in a text to their corresponding small letters. For example, "Hello World" becomes "hello world" after the transformation.
             </div>
             </div>
         </div>
@@ -36,7 +36,7 @@ export default function About(props) {
             </h2>
             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-                This transformation involves converting all small letters in a text to their corresponding capital letters. For example, "textutils" becomes "TEXTUTILS" after the transformation.
+                This transformation involves converting all small letters in a text to their corresponding capital letters. For example, "Hello World" becomes "HELLO WORLD" after the transformation.
             </div>
             </div>
         </div>
@@ -48,7 +48,7 @@ export default function About(props) {
             </h2>
             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-                This transformation involves removing extra blank spaces at the start and end of the text content. For example, "    TextUtils is nice     " becomes "TextUtils is nice" after transformation.
+                This transformation involves removing extra blank spaces at the start and end of the text content. For example, "   TextTool is nice   " becomes "TextTool is nice" after transformation.
             </div>
             </div>
         </div>
@@ -97,7 +97,7 @@ export default function About(props) {
             </h2>
             <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-                TextUtils aims to help anyone and everyone and provides free access to use it multiple times.
+                TextTool aims to help anyone and everyone and provides free access to use it multiple times.
             </div>
             </div>
         </div>

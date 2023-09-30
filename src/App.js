@@ -30,19 +30,19 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = '#042743';
       showAlert("success", "Dark Mode has been enabled.");
-      document.title = 'TextUtils - Dark Mode';
+      document.title = 'TextTool - Dark Mode';
     }
     else{
       setMode('light');
       document.body.style.backgroundColor = 'white';
       showAlert("success", "Light Mode has been enabled.");
-      document.title = 'TextUtils - Light Mode';
+      document.title = 'TextTool - Light Mode';
     }
   }
   return (
     <>
     <Router>
-    <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+    <Navbar title="TextTool" mode={mode} toggleMode={toggleMode} />
     <Alert alert={alert} />
     <div className="container my-3">
     <Routes>
@@ -50,7 +50,7 @@ function App() {
           <Route exact path="/about" element={<About mode={mode} />}>
           </Route>
 
-          <Route exact path="/" element={<TextForm heading="TextUtils - Enter the text you want to transform" mode={mode} showAlert={showAlert} />}>
+          <Route exact path="/" element={<TextForm heading="TextTool - Enter the text you want to transform" mode={mode} showAlert={showAlert} />}>
           </Route>
     </Routes>
     </div>
