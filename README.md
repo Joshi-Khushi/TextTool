@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# TextTool
+
+'TextTool' is a text transforming tool that helps in streamlining content, reformating documents, or implying specific letter case to your text by providing features like converting text from UpperCase to LowerCase and vice-versa, trimming extra spaces at the start and end, displaying word and character count along with preview text and the time taken to read the text transformed.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
