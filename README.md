@@ -7,4 +7,4 @@
 -CSS\
 -Bootstrap\
 -JS\
--React JS\
+-React JS
